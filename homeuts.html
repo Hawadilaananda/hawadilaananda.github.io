@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="images/brainfav.ico">
+
+    <!--remixicon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+
+    <!--swiper css-->
+    <link rel="stylesheet" href="">
+
+    <!--css-->
+    <link rel="stylesheet" href="styleuts.css">
+    <title>UTS self-development</title>
+</head>
+<body>
+    <!-- header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class="ri-health-book-line"></i> Self-Development
+            </a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="ri-home-line"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item dropdown">
+                        <a href="aboututs.html" class="nav__link">
+                            <i class="ri-home-line"></i>
+                            <span>About</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#featured" class="nav__link">
+                            <i class="ri-book-3-line"></i>
+                            <span>Shop</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#artikel" class="nav__link">
+                            <i class="ri-price-tag-3-line"></i>
+                            <span>Artikel</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#youtube" class="nav__link">
+                            <i class="ri-bookmark-line"></i>
+                            <span>YouTube</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#testimonial" class="nav__link">
+                            <i class="ri-message-3-line"></i>
+                            <span>Testimonial</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__actions">
+                <!-- search button -->
+                <i class="ri-search-line search-button" id="search-button"></i>
+
+                <!-- login button -->
+                <i class="ri-user-line login-button" id="login-button"></i>
+
+                <!-- theme button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- search -->
+    <div class="search" id="search-content">
+        <form action="" class="search__form">
+            <i class="ri-search-line search__icon"></i>
+            <input type="search" placeholder="what are you looking for?" class="search__input">
+        </form>
+
+        <i class="ri-close-line search__close" id="search-close"></i>
+    </div>
+
+    <!-- login -->
+    <div class="login grid" id="login-content">
+        <form action="" class="login__form grid">
+            <h3 class="login__title">Login In</h3>
+
+            <div class="login__group grid">
+                <div>
+                    <label for="login-email" class="login__label">Email</label>
+                    <input type="email" placeholder="Write your email" id="login-email" class="login__input">
+                </div>
+
+                <div>
+                    <label for="login-pass" class="login__label">Password</label>
+                    <input type="password" placeholder="Enter your password" id="login-pass" class="login__input">
+                </div>
+            </div>
+
+            <div>
+                <span class="login__signup">
+                    You do not have an account? <a href="#">Sign up</a>
+                </span>
+
+                <a href="#" class="login__forget">You forgot your password</a>
+
+                <button type="submit" class="login__button button">Log in</button>
+            </div>
+        </form>
+
+        <i class="ri-close-line login__close" id="login-close"></i>
+    </div>
+
+    <!-- main -->
+    <main class="main">
+        <!-- home -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Self <br>
+                        Development
+                    </h1>
+
+                    <p class="home__description">
+                        Nggak tahu harus mulai dari mana buat self-development? Tenang! Di sini kamu bisa nemuin rekomendasi video, buku, dan artikel keren seputar self-development yang bisa bantu kamu tumbuh jadi versi terbaik dirimu.
+                    </p>
+
+                    <a href="#" class="button">Explore Now</a>
+                </div>
+
+                <div class="home__images">        
+                <img src="https://cdn.gramedia.com/uploads/items/9bb57e69-06d4-49e3-9c5a-e7e2ba8b6bf2.jpg" alt="image" class="home__img">                           
+                </div>
+            </div>
+        </section>
+
+        <!-- services -->
+        <section class="services section">
+            <div class="services__container container grid">
+                <article class="services__card">
+                    <i class="ri-truck-line"></i>
+                    <h3 class="services__title">Free Shipping</h3>
+                    <p class="services__description">Order More Than Rp.150.000</p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-lock-2-line"></i>
+                    <h3 class="services__title">Secure Payment</h3>
+                    <p class="services__description">100% Secure Payment</p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-customer-service-2-line"></i>
+                    <h3 class="services__title">24/7 Support</h3>
+                    <p class="services__description">Call us anytime</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- featured -->
+        <section class="featured section" id="featured">
+            <h2 class="section__title">
+                Books Shop
+            </h2>
+            <div class="featured__container">
+                <article class="featured__card">
+                <img src="https://cdn.gramedia.com/uploads/items/9bb57e69-06d4-49e3-9c5a-e7e2ba8b6bf2.jpg" alt="image" class="featured__img">
+                        <h2 class="featured__title">The Art Of Money</h2>
+                        <div class="featured__prices">
+                            <span class="featured__discount">Rp.80.000</span>
+                            <span class="featured__price">Rp.99.000</span>
+                        </div>
+
+                        <button class="button">Add To Cart</button>
+
+                        <div class="featured__actions">
+                            <button><i class="ri-search-line"></i></button>
+                            <button><i class="ri-heart-3-line"></i></button>
+                            <button><i class="ri-eye-line"></i></button>
+                        </div>
+
+                    </article>
+
+                    <article class="featured__card">
+                        <img src="https://cdn.gramedia.com/uploads/items/9786020633213.jpg" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Berani Tidak Disukai</h2>
+                        <div class="featured__prices">
+                            <span class="featured__discount">Rp.77.500</span>
+                            <span class="featured__price">Rp.85.000</span>
+                        </div>
+
+                        <button class="button">Add To Cart</button>
+
+                        <div class="featured__actions">
+                            <button><i class="ri-search-line"></i></button>
+                            <button><i class="ri-heart-3-line"></i></button>
+                            <button><i class="ri-eye-line"></i></button>
+                        </div>
+
+                    </article>
+
+                    <article class="featured__card">
+                        <img src="https://cdn2.penguin.com.au/covers/original/9780241529720.jpg" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Why Has Nobody Told Me This Before</h2>
+                        <div class="featured__prices">
+                            <span class="featured__discount">Rp.285.000</span>
+                            <span class="featured__price">Rp.300.000</span>
+                        </div>
+
+                        <button class="button">Add To Cart</button>
+
+                        <div class="featured__actions">
+                            <button><i class="ri-search-line"></i></button>
+                            <button><i class="ri-heart-3-line"></i></button>
+                            <button><i class="ri-eye-line"></i></button>
+                        </div>
+
+                    </article>
+
+
+                    <article class="featured__card">
+                        <img src="https://media.grasindo.id/images/books/483/thumbs/cover_SEBUAH_SENI_UNTUK_BERSIKAP_BODO_AMAT_R1_UVspot_Embossed_1.jpg_1667880320.png" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Sebuah Seni Untuk Bersikap Bodoamat</h2>
+                        <div class="featured__prices">
+                            <span class="featured__discount">Rp.143.000</span>
+                            <span class="featured__price">Rp.240.000</span>
+                        </div>
+
+                        <button class="button">Add To Cart</button>
+
+                        <div class="featured__actions">
+                            <button><i class="ri-search-line"></i></button>
+                            <button><i class="ri-heart-3-line"></i></button>
+                            <button><i class="ri-eye-line"></i></button>
+                        </div>
+
+                    </article>
+            </div>
+
+        </section>
+
+        <!-- artikel -->
+        <section class="artikel section" id="artikel">
+            <div class="artikel__container container grid">
+                <h2 class="section__title">
+                    Rekomendasi Artikel Self-Development
+                </h2>
+
+                <p class="artikel__description">
+                    Baca berbagai artikel inspiratif seputar Self-development, kebiasaan positif, dan motivasi untuk jadi versi terbaikmu.
+                </p>
+
+                <div class="artikel__list grid">
+                    <a href="artikel.html" target="_blank" class="artikel__card">
+                        <h3 class="artikel__title">Apa Itu Self-development?</h3>
+                        <p class="artikel__info">"ingin tahu apa itu development? apa itu pengembangan diri? contohnya seperti apa sih? bisa langsung cek artikel kami"</p>
+                        <button class="button">see more</button>
+                    </a>
+
+                    <a href="artikel.html" target="_blank" class="artikel__card">
+                        <h3 class="artikel__title">Tahapan-Tahapan Untuk Self-Development</h3>
+                        <p class="artikel__info">"Jika kalian sudah paham apa itu self-develoment kita bisa pindah ketahap selanjutnya yaitu bagaimana sih Tahapan-Tahapannya? bisa langsung cek artikel kami."</p>
+                        <button class="button">see more</button>
+                    </a>
+
+                    <a href="artikel.html" target="_blank" class="artikel__card">
+                        <h3 class="artikel__title">Rekomendasi Buku Self-Development</h3>
+                        <p class="artikel__info">"saya sudah mengetahui semuanya tetapi ingin mengetahui lebih lanjut? yuk! bisa langsung cek artikel kami."</p>
+                        <button class="button">see more</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- youtube -->
+        <section class="youtube section" id="youtube">
+            <h2 class="section__title">
+                Rekomendasi YouTuber Self-Development
+            </h2>
+
+            <div class="youtube__container">
+                <article class="youtube__card">
+                    <iframe width="320" height="160" src="https://www.youtube.com/embed/14nhXbzCmBY?si=0uxhyzMXShrmFaRm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h3 class="youtube__title">Tam Kaur</h3>
+                    <p class="youtube__description">teaching all the girlies how to close the gap between their current self and desired self</p>
+                    <a href="https://www.youtube.com/@tamkaur" target="_blank" class="youtube__button">subscribe</a>
+                </article>
+
+                <article class="youtube__card">
+                    <iframe width="320" height="160" src="https://www.youtube.com/embed/cFpkCWwo91M?si=tl2gXqcKguokVgly" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h3 class="youtube__title">The Wizard Liz</h3>
+                    <p class="youtube__description">freedom it's being you, without anyone's permission</p>
+                    <a href="https://www.youtube.com/@Thewizardliz" target="_blank" class="youtube__button">subscribe</a>
+                </article>
+
+                <article class="youtube__card">
+                    <iframe width="320" height="160" src="https://www.youtube.com/embed/Qk5KjhqrWPA?si=oqozS_K6DKfvfY0I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h3 class="youtube__title">Persephonesmind</h3>
+                    <p class="youtube__description">You owe it to yourself to become the best version of yourself.</p>
+                    <a href="https://www.youtube.com/@Persephonesmind" target="_blank" class="youtube__button">subscribe</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- testimonial -->
+        <section class="testimonial section" id="testimonial">
+        <h2 class="section__title">
+        review pengguna
+        </h2>
+
+        <div class="testimonial__container">
+            <article class="testimonial__card">
+                <img src="images/ayel.jpg" alt="image" class="testimonial__img">
+                <h2 class="testimonial__title">Rafayel</h2>
+                <p class="testimonial__description">rekomendasi yang diberikan dari website ini memudahkan saya untuk self-development</p>
+
+                <div class="testimonial__stars">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+            </article>
+
+            <article class="testimonial__card">
+                <img src="images/zayne.jpg" alt="image" class="testimonial__img">
+                <h2 class="testimonial__title">Zayne</h2>
+                <p class="testimonial__description">artikel yang tesedia sangat mudah dipahami</p>
+
+                <div class="testimonial__stars">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+            </article>
+
+            <article class="testimonial__card swiper-slide">
+                <img src="images/sylus.jpg" alt="image" class="testimonial__img">
+                <h2 class="testimonial__title">Sylus</h2>
+                <p class="testimonial__description">video youtube yang direkomendasikan sangat cocok untuk saya.</p>
+
+                <div class="testimonial__stars">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+            </article>
+
+            <article class="testimonial__card">
+                <img src="images/caleb.jpg" alt="image" class="testimonial__img">
+                <h2 class="testimonial__title">Caleb</h2>
+                <p class="testimonial__description">website ini menjual buku yang direkomendasikannya langsung sangat baguss.</p>
+
+                <div class="testimonial__stars">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+            </article>
+        </div>
+        </section>
+
+    <!-- footer -->
+    <footer class="footer">
+    <div class="footer__container container grid">
+
+        <div class="footer__data grid">
+            <div>
+                <h3 class="footer__title">About</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Profile</a>
+                    </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Visi Misi</a>
+                    </li>
+
+                     <li>
+                        <a href="#" class="footer__link">tujuan</a>
+                    </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Terms of services</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="footer__title">company</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">blogs</a>
+                    </li>
+
+                     <li>
+                        <a href="#" class="footer__link">community</a>
+                    </li>
+
+                     <li>
+                        <a href="#" class="footer__link">our team</a>
+                    </li>
+                    
+                     <li>
+                        <a href="#" class="footer__link">help center</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="footer__title">Contact</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <address class="footer__info">
+                            Serua Indah Ciputat <br>
+                            Kota Tangerang Selatan, 15414
+                        </address>
+                    </li>
+
+                    <li>
+                        <address class="footer__info">
+                            hawadila91@gmail.com <br>
+                            +62-858-8743-3576
+                        </address>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="footer__title">Social</h3>
+
+                <div class="footer__social">
+                    <a href="http://instagram.com/hawadila_/" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+
+                    <a href="https://www.youtube.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-youtube-line"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <span class="footer__copy">
+        All Rights Reserved By Hawa Dila Ananda
+    </span>
+    </footer>
+
+    <!-- scroll up -->
+     <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+     </a>
+    </main>
+
+    <!-- swiper js -->
+    <script src=""></script>
+
+    <!-- javascript -->
+     <script src="javauts.js"></script>
+</body>
+</html>

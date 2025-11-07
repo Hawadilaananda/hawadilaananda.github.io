@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--favicon-->
+    <link rel="shortcut icon" href="images/brainfav.ico">
+
+    <!--remixicon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+
+    <!--css-->
+    <link rel="stylesheet" href="aboutstyle.css">
+    <title>artikel uts</title>
+</head>
+<body>
+    <!-- header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class="ri-health-book-line"></i> Self-Development
+            </a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="homeuts.html #home" class="nav__link active-link">
+                            <i class="ri-home-line"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item dropdown">
+                        <a href="aboututs.html" class="nav__link">
+                            <i class="ri-home-line"></i>
+                            <span>About</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="homeuts.html #featured" class="nav__link">
+                            <i class="ri-book-3-line"></i>
+                            <span>Shop</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="artikel.html" class="nav__link">
+                            <i class="ri-price-tag-3-line"></i>
+                            <span>Artikel</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="homeuts.html #youtube" class="nav__link">
+                            <i class="ri-bookmark-line"></i>
+                            <span>YouTube</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="homeuts.html #testimonial" class="nav__link">
+                            <i class="ri-message-3-line"></i>
+                            <span>Testimonial</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__actions">
+                <!-- search button -->
+                <i class="ri-search-line search-button" id="search-button"></i>
+
+                <!-- login button -->
+                <i class="ri-user-line login-button" id="login-button"></i>
+
+                <!-- theme button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- search -->
+    <div class="search" id="search-content">
+        <form action="" class="search__form">
+            <i class="ri-search-line search__icon"></i>
+            <input type="search" placeholder="what are you looking for?" class="search__input">
+        </form>
+
+        <i class="ri-close-line search__close" id="search-close"></i>
+    </div>
+
+    <!-- login -->
+    <div class="login grid" id="login-content">
+        <form action="" class="login__form grid">
+            <h3 class="login__title">Login In</h3>
+
+            <div class="login__group grid">
+                <div>
+                    <label for="login-email" class="login__label">Email</label>
+                    <input type="email" placeholder="Write your email" id="login-email" class="login__input">
+                </div>
+
+                <div>
+                    <label for="login-pass" class="login__label">Password</label>
+                    <input type="password" placeholder="Enter your password" id="login-pass" class="login__input">
+                </div>
+            </div>
+
+            <div>
+                <span class="login__signup">
+                    You do not have an account? <a href="#">Sign up</a>
+                </span>
+
+                <a href="#" class="login__forget">You forgot your password</a>
+
+                <button type="submit" class="login__button button">Log in</button>
+            </div>
+        </form>
+
+        <i class="ri-close-line login__close" id="login-close"></i>
+    </div>
+
+    <main class="main">
+    <!--sidebar-->
+    <aside class="sidebar__youtube">
+        <h3 class="sidebar__title">Rekomendasi Youtube
+            <i class="ri-youtube-line"></i>
+        </h3>
+
+        <div class="sidebar__video">
+            <iframe width="100%" height="150" src="https://www.youtube.com/embed/Ffy_j15o-_s?si=MHp9-omxYVfPiRBf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="sidebar__video">
+            <iframe width="100%" height="150" src="https://www.youtube.com/embed/EVKrtp5ui-U?si=IvDmA4JNvUlMTtir" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="sidebar__video">
+            <iframe width="100%" height="150" src="https://www.youtube.com/embed/aMnPOASEp5E?si=91vIJp4uJ4hAM_F5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </aside>
+
+        <!-- artikel -->
+        <section class="artikel section" id="artikel">
+            <h2 class="section__title">
+            Artikel Self-Development
+            </h2>
+            <div class="artikel__container">
+
+                <!-- artikel 1 -->
+                <article class="artikel__card">
+                    <h3 class="artikel__title">Apa Itu Self-development?</h3>
+                    <p class="artikel__info">Self-Development yang artinya pengembangan diri adalah proses yang berkelanjutan untuk meningkatkan kemampuan, kebiasaan, dan pola pikir kita supaya bisa menjadi versi terbaik dari diri kita yang dulu. 
+                        melalui self-development ini, seseorang dapat lebih memahami tujuan hidup, dapat mengelola emosinya sendiri, dan meningkatkan hubungan kalian antar orang terdekat ataupun orang lain.</p>
+                    <p class="artikel__info">contoh sederhana dari self-development adalah merubah semua kebiasan buruk menjadi baik seperti membaca buku 10 halaman setiap hari, setiap habis bangun langsung berolahraga tidak membuka hp
+                        dengan merubah kebiasan buruk menjadi baik walaupun dari hal-hal yang paling kecil, nantinya kamu akan melihat perubahan besar yang dibuat oleh dari hal-hal kecil itu.
+                    </p>
+                </article>
+
+                <!-- artikel 2 -->
+                <article class="artikel__card">
+                    <h3 class="artikel__title">Tahapan-Tahapan Untuk Self-Development</h3>
+                    <ol class="artikel__info">
+                        <li><strong>Kenali diri-sendiri.</strong>Mengetahui apa kelebihanmu dan kekuranganmu. Hal yang paling sulit padahal terlihat mudah adalah mengetahui apa kelebihanmu dan kekuranganmu</li>
+                        <li><strong>Membangun kebiasaan positif.</strong>Membangun kebiasaan seperti membaca buku, olahraga, dan sebagainya. Rubah hal-hal positif dari yang terkecil</li>
+                        <li><strong>Evaluasi diri secara rutin.</strong>merefleksikan apa yang sudah dicapai dan perbaiki hal yang masih kurang. Mungkin hal ini terlihat menyusahkan tetapi dengan mengetahui itu kamu dapat menjadi versi yang lebih baik.</li>
+                    </ol>
+                </article>
+
+                <!-- artikel 3 -->
+                <article class="artikel__card">
+                    <h3 class="artikel__title">Rekomendasi Buku Self-Development</h3>
+                    <ul class="artikel__info">
+                        <li>Sebuah Seni Untuk Bersikap Bodoamat</li>
+                        <li>Why Has Nobody Told Me This Before</li>
+                        <li>Berani Tidak Disukai</li>
+                    </ul>
+                    <p class="artikel__info">inilah beberapa rekomendasi buku tentang self-development untuk kamu yang ingin memulai merubah diri dan menjadi versi yang lebih baik.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- footer -->
+    <footer class="footer">
+    <div class="footer__container container grid">
+
+        <div class="footer__data grid">
+            <div>
+                <h3 class="footer__title">About</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Profile</a>
+                    </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Visi Misi</a>
+                    </li>
+
+                     <li>
+                        <a href="#" class="footer__link">tujuan</a>
+                    </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Terms of services</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="footer__title">company</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">blogs</a>
+                    </li>
+
+                     <li>
+                        <a href="#" class="footer__link">community</a>
+                    </li>
+
+                     <li>
+                        <a href="#" class="footer__link">our team</a>
+                    </li>
+                    
+                     <li>
+                        <a href="#" class="footer__link">help center</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="footer__title">Contact</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <address class="footer__info">
+                            Serua Indah Ciputat <br>
+                            Kota Tangerang Selatan, 15414
+                        </address>
+                    </li>
+
+                    <li>
+                        <address class="footer__info">
+                            hawadila91@gmail.com <br>
+                            +62-858-8743-3576
+                        </address>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="footer__title">Social</h3>
+
+                <div class="footer__social">
+                    <a href="http://instagram.com/hawadila_/" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+
+                    <a href="https://www.youtube.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-youtube-line"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <span class="footer__copy">
+        All Rights Reserved By Hawa Dila Ananda
+    </span>
+    </footer>
+
+    <!-- scroll up -->
+     <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+     </a>
+    </main>
+
+    <!-- javascript -->
+     <script src="javauts.js"></script>
+</body>
+</html>
